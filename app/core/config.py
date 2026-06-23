@@ -13,7 +13,7 @@ class Settings(BaseSettings):
     firebase_client_email: str = ""
 
     # Proveedores IA (solo backend)
-    deepseek_api_key: str = "sk-c16305505cba489aa6ce83d05667504b"
+    deepseek_api_key: str = ""
     mistral_api_key: str = ""
     grok_api_key: str = ""
     tavily_api_key: str = ""
